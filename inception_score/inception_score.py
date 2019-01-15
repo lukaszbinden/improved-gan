@@ -1,3 +1,7 @@
+# LZ 15.01.19: Adapted, taken from:
+# https://github.com/openai/improved-gan/tree/master/inception_score
+# ##
+
 # Code derived from tensorflow/tensorflow/models/image/imagenet/classify_image.py
 from __future__ import absolute_import
 from __future__ import division
@@ -15,7 +19,7 @@ import scipy.misc
 import math
 import sys
 
-MODEL_DIR = '/tmp/imagenet'
+MODEL_DIR = '../models/imagenet'
 DATA_URL = 'http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz'
 softmax = None
 
